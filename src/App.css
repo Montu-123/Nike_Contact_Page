@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.nav {
+  height: 70px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+  height: 70px;
+  width: 70px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav ul li {
+  list-style: none;
+  
+}
+
+.nav ul li a {
+  text-decoration: none;
+  padding: 18px;
+  color: black;
+  font-weight: 900;
+}
+.contall{
+  
+}
+.conthead{
+  margin-top: 12px;
+  margin-bottom: 36px;
+}
+
+.conthead h1{
+  font-weight: 900;
+}
+.conthead p{
+  font-weight: 700;
+}
+.btn{
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  padding: 10px 25px;
+  margin: 0px 30px;
+  width: 224px;
+  margin-left: 0px;
+  border-radius: 5px;
+}
+.emailbtn{
+  font-size: 16px;
+  width: 479px;
+  background-color: white;
+  padding: 10px 25px;
+  margin-top: 13px;
+  border-radius: 5px;
+}
+.contbtn {
+  margin-top: 0px;
+}
+.icons{
+  font-size: 900;
+}
+.form{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  position: absolute;
+  left: 247px;
+
+}
+.form input{
+  height: 35px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    width: 417px;
+}
+.form label{
+  background-color: white;
+  position: relative;
+  left: 15px;
+  top: 13px;
+  width: 51px;
+  padding-left: 5px;
+}
+
+
+.form textarea{
+  height: 60px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  width: 417px;
+  padding: 10px 0px;
+}
+
+
+.subbtn{
+  font-size: 16px;
   color: white;
+  background-color: black;
+  padding: 10px 25px;
+  margin: 0px 30px;
+  width: 158px;
+  margin-left: 266px;
+  border-radius: 5px;
+  margin-top: 15px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contimage{
+  height: 72%;
+  width: 35%;
+  position: absolute;
+  left: 690px;
+  top: 179px;
 }
